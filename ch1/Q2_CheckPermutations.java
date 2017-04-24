@@ -3,7 +3,7 @@ package ch1;
 public class Q2_CheckPermutations {
 	public static boolean checkPerm(String input1, String input2){
 		/*<--------- Strategy -----------
-		 * 1. We need to check that those 2 strings are a permutation of each others
+		 *  We need to check that those 2 strings are a permutation of each others
 		 *  |--> we would need to keep a count of each of the alphabet appearance on
 		 *       the first string.
 		 *       Then going back to the second string we need to decrement those counts..
